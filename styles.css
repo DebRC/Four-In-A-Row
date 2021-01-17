@@ -1,0 +1,18 @@
+body
+{
+  background-color: #00af91;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.board button {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(236, 179, 144);
+  border-radius: 50%;
+  border: 4px solid #a9294f; /*this gets rid of bootstrap shadow*/
+  margin: 1px;
+}
