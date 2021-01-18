@@ -1,13 +1,14 @@
-var player1 = prompt("Enter your Player Blue's name");
+var player1 = prompt("Enter Player Blue's name");
 var player1Color = 'rgb(86, 151, 255)';
 
-var player2 = prompt("Enter your Player Red's name");
+var player2 = prompt("Enter Player Red's name");
 var player2Color = 'rgb(237, 45, 37)';
 
 while (player1===null || player1==="" || player2==="" || player2===null)
 {
-    var player1 = prompt("Enter you name, your color will be blue!");
-    var player2 = prompt("Enter you name, your color will be red!");
+    alert("Name Not Found!");
+    var player1 = prompt("Enter Player Blue's name");
+    var player2 = prompt("Enter Player Red's name");
 }
 
 var table = $('table tr');
